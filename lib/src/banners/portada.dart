@@ -20,7 +20,32 @@ class DesktopPortada extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Placeholder();
+    return Container(
+      width: double.infinity,
+      height: 700,
+      //agregar imagen de fondo
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage("assets/img/fondo-portada.webp"),
+          fit: BoxFit.cover,
+        ),
+      ),
+      child: Row(
+        children: [
+          Expanded(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text("Titulo"),
+                Text("Subtitulo"),
+                Container(height: 60, width: 200, color: Colors.black),
+              ],
+            ),
+          ),
+          Expanded(child: Placeholder()),
+        ],
+      ),
+    );
   }
 }
 
