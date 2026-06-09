@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   url_launcher: ^6.3.2 #abrir paginas externas
+  google_fonts: ^8.1.0 #importar fuentes
 
 
 
