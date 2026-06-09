@@ -52,6 +52,32 @@ class DesktopFooter extends StatelessWidget {
                   "Redes",
                   style: TextStyle(fontSize: 40, color: Color(0xFF76d0cf)),
                 ),
+                SizedBox(height: 30),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    //instagram
+                    Container(
+                      height: 75,
+                      width: 75,
+                      child: Image.asset("assets/icons/igw-logo.webp"),
+                    ),
+                    SizedBox(width: 40),
+                    //facebook
+                    Container(
+                      height: 75,
+                      width: 75,
+                      child: Image.asset("assets/icons/igw-logo.webp"),
+                    ),
+                    SizedBox(width: 40),
+                    //gmail
+                    Container(
+                      height: 75,
+                      width: 75,
+                      child: Image.asset("assets/icons/igw-logo.webp"),
+                    ),
+                  ],
+                ),
               ],
             ),
           ),

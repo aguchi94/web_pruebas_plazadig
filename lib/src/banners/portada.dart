@@ -37,7 +37,9 @@ class DesktopPortada extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text("Titulo"),
-                Text("Subtitulo"),
+                Text(
+                  "Somos una empresa dedicada a desarrollar\naplicaciones mobiles bla bla bla...",
+                ),
                 Container(height: 60, width: 200, color: Colors.black),
               ],
             ),
